@@ -1,3 +1,22 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+
+theme = 'github.com/LordMathis/hugo-theme-nightfall'
+
+[params]
+author = "Alexandre Figueiredo"
+user = "Alex"
+hostname = "blog"
+
+  [[params.social]]
+  key = 0
+  name = "github"
+  url = "https://github.com/17xande"
+
+[menu]
+  [[menu.header]]
+  name = "posts"
+  weight = 0
+  url = "/posts"
+
