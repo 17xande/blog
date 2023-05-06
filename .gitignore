@@ -1,2 +1,8 @@
 resources/_gen
 .hugo_build.lock
+
+# build folder
+public
+
+# Local Netlify folder
+.netlify

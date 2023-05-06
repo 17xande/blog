@@ -1,13 +1,13 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://17xande.netlify.app'
+languageCode = 'en-uk'
+title = '17Xande'
 
 theme = 'github.com/LordMathis/hugo-theme-nightfall'
 
 [params]
 author = "Alexandre Figueiredo"
 user = "Alex"
-hostname = "blog"
+hostname = "17xande.netlify.app"
 
   [[params.social]]
   key = 0
