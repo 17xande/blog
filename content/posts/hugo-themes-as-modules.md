@@ -4,8 +4,6 @@ date: 2023-05-09T21:24:55+02:00
 draft: false
 ---
 
-# Hugo Themes as Modules
-
 Hugo now has [modules](https://gohugo.io/hugo-modules/). These are core building blocks, and they include themes. We're going to look at how to use this new feature.
 
 ## Prerequisites
@@ -43,7 +41,6 @@ At this time, there seem to be multiple ways to use a Theme module. If you read 
 My faviourite way, because it's the simplest way, is to add the following to the `config.toml` file:
 ```toml
 theme = ["github.com/Mitrichius/hugo-theme-anubis"]
-
 ```
 ### Start your Hugo server
 The hard part is over, now you can just start your hugo development server, and it will take care of the rest:
